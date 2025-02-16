@@ -1,0 +1,19 @@
+{
+  "$schema": "https://encore.dev/schemas/infra.schema.json",
+  "metadata": {
+    "app_id": "my-app",
+    "env_name": "my-env",
+    "env_type": "production"
+  },
+  "sql_servers": [
+    {
+      "host": "maglev.proxy.rlwy.net:37479",
+      "databases": {
+        "encore_prisma_test": {
+          "username": "postgres",
+          "password": "PauMBVagJoWgUDmErJfTgGvpHcozXYpr"
+        }
+      }
+    }
+  ]
+}
