@@ -11,7 +11,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "<paste shadow db connection string here>"
+  url      = "postgresql://encore-prisma-efhi:shadow-cuop2cj1tugkumfjsg20@127.0.0.1:9500/encore_prisma_test?sslmode=disable"
 }
 
 model User {
